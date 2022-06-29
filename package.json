@@ -1,6 +1,6 @@
 {
-  "name": "react-native-datepicker",
-  "version": "1.7.2",
+  "name": "kolaybi-react-native-datepicker-fix",
+  "version": "2.0.0",
   "description": "React Native DatePicker component for both Android and iOS, useing DatePickerAndroid, TimePickerAndroid and DatePickerIOS",
   "main": "datepicker.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "react-native",
     "DatePicker"
   ],
-  "author": "xgfe",
+  "author": "kolaybideveloper & xgfe & fermetin & ecancan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xgfe/react-native-datepicker/issues"
