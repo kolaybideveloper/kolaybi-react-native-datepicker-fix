@@ -4,13 +4,13 @@ React Native DatePicker component for both Android and iOS, using DatePickerAndr
 ## Install
 
 ```bash
-npm install react-native-datepicker --save
+npm install kolaybi-react-native-datepicker-fix --save
 ```
 
-Or using [react-native-ui-xg](https://github.com/xgfe/react-native-ui-xg), our react-naitve ui kit.
+Or yarn
 
 ```bash
-npm install react-native-ui-xg --save
+yarn add kolaybi-react-native-datepicker-fix --save
 ```
 
 ## Example
