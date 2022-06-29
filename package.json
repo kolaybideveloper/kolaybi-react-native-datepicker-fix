@@ -1,6 +1,6 @@
 {
   "name": "kolaybi-react-native-datepicker-fix",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React Native DatePicker component for both Android and iOS, using DatePickerAndroid, TimePickerAndroid and DatePickerIOS",
   "main": "datepicker.js",
   "scripts": {
