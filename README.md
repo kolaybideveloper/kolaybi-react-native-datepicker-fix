@@ -1,23 +1,16 @@
-# react-native-datepicker [![Build Status](https://travis-ci.org/xgfe/react-native-datepicker.svg?branch=master)](https://travis-ci.org/xgfe/react-native-datepicker) [![Coverage Status](https://coveralls.io/repos/github/xgfe/react-native-datepicker/badge.svg?branch=master)](https://coveralls.io/github/xgfe/react-native-datepicker?branch=master) [![Monthly download](https://img.shields.io/npm/dm/react-native-datepicker.svg)](https://img.shields.io/npm/dm/react-native-datepicker.svg) [![Total downloads](https://img.shields.io/npm/dt/react-native-datepicker.svg)](https://img.shields.io/npm/dt/react-native-datepicker.svg)
 React Native DatePicker component for both Android and iOS, using DatePickerAndroid, TimePickerAndroid and DatePickerIOS
 
 ## Install
 
 ```bash
-npm install kolaybi-react-native-datepicker-fix --save
+npm install kolaybi-react-native-datepicker-fix @react-native-community/datetimepicker@6.2.0
 ```
 
 Or yarn
 
 ```bash
-yarn add kolaybi-react-native-datepicker-fix --save
+yarn add kolaybi-react-native-datepicker-fix @react-native-community/datetimepicker@6.2.0
 ```
-
-## Example
-Check [index.android.js](https://github.com/xgfe/react-native-datepicker/blob/master/index.android.js) in the Example.
-
-![android](http://xgfe.github.io/react-native-datepicker/img/react-native-datepicker-android.gif)
-![ios](http://xgfe.github.io/react-native-datepicker/img/react-native-datepicker-ios.gif)
 
 ## Usage
 
