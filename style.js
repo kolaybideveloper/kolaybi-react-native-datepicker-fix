@@ -39,7 +39,9 @@ let style = StyleSheet.create({
   datePickerCon: {
     backgroundColor: '#fff',
     height: 0,
-    overflow: 'hidden'
+    overflow: 'hidden',
+    alignItems:'center',
+    justifyContent:'center'
   },
   btnText: {
     position: 'absolute',
@@ -64,9 +66,8 @@ let style = StyleSheet.create({
     right: 0
   },
   datePicker: {
-    marginTop: 42,
     borderTopColor: '#ccc',
-    borderTopWidth: 1
+    borderTopWidth: 1,
   },
   disabled: {
     backgroundColor: '#eee'
