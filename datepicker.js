@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {Animated, DatePickerIOS, Image, Keyboard, Modal, Platform, Text, TouchableHighlight, View} from 'react-native';
+import {Animated, Image, Keyboard, Modal, Platform, Text, TouchableHighlight, View} from 'react-native';
 import Style from './style';
 import Moment from 'moment';
 import moment from 'moment';
 import {DateTimePickerAndroid as DatePickerAndroid} from '@react-native-community/datetimepicker';
 import TimePickerAndroid from '@react-native-community/datetimepicker/src/timepicker.android';
-
+import DatePickerIOS from '@react-native-community/datetimepicker/src/picker.ios'
 
 const FORMATS = {
   'date': 'YYYY-MM-DD',
