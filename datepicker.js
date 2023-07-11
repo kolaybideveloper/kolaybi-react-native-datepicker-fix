@@ -6,7 +6,7 @@ import Moment from 'moment';
 import moment from 'moment';
 import {DateTimePickerAndroid as DatePickerAndroid} from '@react-native-community/datetimepicker';
 import TimePickerAndroid from '@react-native-community/datetimepicker/src/timepicker.android';
-import DatePickerIOS from '@react-native-community/datetimepicker/src/picker.ios'
+import DateTimePicker from '@react-native-community/datetimepicker';
 
 const FORMATS = {
   'date': 'YYYY-MM-DD',
@@ -188,7 +188,7 @@ class DatePicker extends Component {
   onDateChange(date) {
     this.setState({
       allowPointerEvents: false,
-      date: date
+      date: new Date(date.nativeEvent.timestamp)
     });
     const timeoutId = setTimeout(() => {
       this.setState({
@@ -414,12 +414,14 @@ class DatePicker extends Component {
                     style={[Style.datePickerCon, {height: this.state.animatedHeight}, customStyles.datePickerCon]}
                   >
                     <View pointerEvents={this.state.allowPointerEvents ? 'auto' : 'none'}>
-                      <DatePickerIOS
+                      <DateTimePicker
+                        display='spinner'
                         date={this.state.date}
+                        value={this.state.date}
                         mode={mode}
                         minimumDate={minDate && this.getDate(minDate)}
                         maximumDate={maxDate && this.getDate(maxDate)}
-                        onDateChange={this.onDateChange}
+                        onChange={this.onDateChange}
                         minuteInterval={minuteInterval}
                         timeZoneOffsetInMinutes={timeZoneOffsetInMinutes ? timeZoneOffsetInMinutes : null}
                         style={[Style.datePicker, customStyles.datePicker]}
